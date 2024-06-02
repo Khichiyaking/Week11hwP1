@@ -19,7 +19,7 @@ public class ElectronicsTest extends CommenTest {
     @Before
     public void setBaseUrl(){openBrowser(baseUrl);}
 
-        @Test
+       // @Test
    /*     public void verifyUserShouldNavigateToCellPhonesPageSuccessfully(){
             WebElement electronicsLink = driver.findElement(By.linkText("Electronics"));
             electronicsLink.click();
@@ -29,7 +29,7 @@ public class ElectronicsTest extends CommenTest {
             String actualText = driver.findElement(By.linkText("Cell phones")).getText();
             assertEquals(actualText, expectedText); */
 
-
+        @Test
             public void verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully(){
                 Actions actions = new Actions(driver);
                 WebElement electronicsMenu = driver.findElement(By.linkText("Electronics"));
